@@ -1,0 +1,14 @@
+#OS files
+.DS_Store
+
+#idea
+.idea
+
+#logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
