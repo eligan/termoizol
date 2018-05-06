@@ -137,7 +137,7 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+  background: url('../img/pipes.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -164,6 +164,36 @@ a {
       .intro-text {
         font-size: 22px;
       }
+    }
+  }
+}
+
+#stat {
+  .item p {
+    font-size: 20px;
+    margin: 25px 0;
+  }
+  .item {
+    margin: 20px 0;
+  }
+
+  .circle {
+    border-radius: 50%;
+    background: #a72431;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    line-height: 200px;
+    font-weight: 900;
+    font-size: 40px;
+
+    .spincrement {
+      background-color: #000;
+      border-radius: 50%;
+      min-width: 150px;
+      display: inline-block;
+      line-height: 220px;
+      margin-top: -10px;
     }
   }
 }
