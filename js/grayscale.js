@@ -52,7 +52,7 @@
       if(w_top + 200 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
           $(".spincrement").spincrement({
               thousandSeparator: "",
-              duration: 1200
+              duration: 2000
           });
           show = false;
       }
