@@ -25,6 +25,10 @@ h6 {
   text-transform: uppercase;
 }
 
+h3 {
+  text-transform: none;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -309,4 +313,17 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#info {
+  background: url("../img/info.jpg") no-repeat center center fixed;
+}
+
+#info h3 {
+  padding-top: 25px;
+}
+
+#info .block {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
 }
