@@ -191,6 +191,36 @@ a:focus, a:hover {
   margin-top: -10px;
 }
 
+#responses .carousel-inner {
+  height: 400px;
+}
+
+#responses .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+#responses .carousel-inner .carousel-caption {
+  bottom: unset;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#partners {
+  background: url("../img/partners.png") no-repeat center center fixed;
+}
+
+#partners img {
+  max-height: 170px;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  margin: 0 auto;
+}
+
 .btn-circle {
   font-size: 26px;
   width: 55px;
@@ -215,21 +245,6 @@ a:focus, a:hover {
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-
-.download-section {
-  color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#map {
-  width: 100%;
-  height: 300px;
 }
 
 .btn {

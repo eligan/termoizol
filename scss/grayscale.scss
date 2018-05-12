@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'mixins.scss';
+
 body {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -31,7 +32,10 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-h3 {text-transform:none}
+
+h3 {
+  text-transform: none
+}
 
 p {
   font-size: 16px;
@@ -100,7 +104,7 @@ a {
       }
     }
   }
-  @media(min-width:992px) {
+  @media(min-width: 992px) {
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -155,7 +159,7 @@ a {
       font-size: 18px;
     }
   }
-  @media(min-width:768px) {
+  @media(min-width: 768px) {
     height: 100%;
     padding: 0;
     .intro-body {
@@ -199,6 +203,36 @@ a {
   }
 }
 
+#responses {
+  .carousel-inner {
+    height: 400px;
+    .carousel-item {
+      height: 100%;
+    }
+    .carousel-caption {
+      bottom: unset;
+      top: 50%;
+      transform: translateY(-50%);
+
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+  }
+}
+
+#partners {
+  background: url('../img/partners.png') no-repeat center center fixed;
+  img {
+    max-height: 170px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
 .btn-circle {
   font-size: 26px;
 
@@ -226,21 +260,6 @@ a {
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-
-.download-section {
-  color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#map {
-  width: 100%;
-  height: 300px;
 }
 
 .btn {
@@ -273,7 +292,7 @@ ul.banner-social-buttons {
   @media(max-width: 1199px) {
     margin-top: 15px;
   }
-  @media(max-width:767px) {
+  @media(max-width: 767px) {
     li {
       display: block;
 
@@ -316,14 +335,12 @@ img::-moz-selection {
 }
 
 #info {
-  background: url('../img/manufacture.png') no-repeat center center fixed
-}
-
-#info h3 {
-  padding-top: 25px;
-}
-
-#info .block {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
+  background: url('../img/manufacture.png') no-repeat center center fixed;
+  h3 {
+    padding-top: 25px;
+  }
+  .block {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+  }
 }
